@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Visualisor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="array">
+      <button class=" btn newarray">New Array</button>
+    </div>
+    <div class="line"></div>
+    <div class="speed">
+      Size of array
+      <input type="range" min="10" max="250" step="1" id="arraysize">
+    </div>
+    <div class="speed">
+      Sorting speed
+      <input type="range" min="1" id="sortspeed">
+    </div>
+    </div>
+    <div class="line"></div>
+    <div class="algorithm">
+
+      <button class="btn bubble">Bubble</button>
+      <button class="btn selection">Selection</button>
+      <button class="btn insertion">Insertion</button>
+      <button class="btn quick">Quick</button>
+      <button class="btn merge">Merge</button>
+      <button class="btn Heap">Heap</button>
+    </div>
+    <div class="forresponsive"></div>
+  </nav>
+  <div class="sorting">
+
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>

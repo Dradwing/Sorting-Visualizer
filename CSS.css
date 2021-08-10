@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color:white;
+}
+.navbar{
+    background-color:black;
+    height:12vh;
+}
+.speed{
+    display:flex;
+    flex-direction: column;
+}
+.line{
+    border-left:3px solid white;
+    height:9vh;
+    position: relative;
+    top:-20%;
+}
+.btn{
+    color:white;
+}
+.btn:focus{
+    outline:none;
+    box-shadow: none;
+}
+.array{
+    padding-left:20px;
+}
+.newarray:hover{
+     color:white;
+     background-color: gray;
+}
+
+.algorithm button:hover{
+  
+    color:white;
+    
+}
+.toggle{
+    color:white;
+    background-color:#1a83de ;
+}
+.forresponsive{
+     width:8%;
+}
+.sorting{
+    transform: rotateX(180deg);/*rotate along X-axis*/
+    margin-left:auto;
+    margin-right:auto;
+    width:85vw;
+    height:86vh;
+    top:1vh;
+    display:flex;
+    position:relative;
+}
+.bar{
+    background-color: dodgerblue;
+    border:solid 1.5px white;
+}
+
+
