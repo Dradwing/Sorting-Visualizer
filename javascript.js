@@ -324,7 +324,8 @@ $(document).ready(function () {
     function heapsort() {
       //insertion (making max heap)
 
-      for (var b = sizeofarray / 2 - 1; b >= 0; b--) heapify(b);
+      for (var b = sizeofarray / 2 - 1; b >= 0; b--) 
+        heapify(b);
 
       //deletion
       for (var w = 0; w < sizeofarray; w++) {
