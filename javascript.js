@@ -20,7 +20,8 @@ $(document).ready(function () {
       speed = Math.floor((1 / speed) * 100);
     }
   }
-  $("#arraysize").change(newarray);
+   $("#arraysize").on("input change", newarray);
+  $(".newarray").click(newarray);
   $(".newarray").click(newarray);
 
   function newarray() {
