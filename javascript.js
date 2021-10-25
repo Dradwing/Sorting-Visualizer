@@ -20,8 +20,8 @@ $(document).ready(function () {
       speed = Math.floor((1 / speed) * 100);
     }
   }
-   $("#arraysize").on("input change", newarray);
-  $(".newarray").click(newarray);
+
+  $("#arraysize").on("input change", newarray);
   $(".newarray").click(newarray);
 
   function newarray() {
@@ -314,6 +314,7 @@ $(document).ready(function () {
     console.log(time);
     enable();
   });
+
   //start of heap sort
   $(".heap").click(() => {
     time = 0;
